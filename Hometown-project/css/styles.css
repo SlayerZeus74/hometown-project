@@ -1,0 +1,179 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#hero{
+    color: #181E2A;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/Shimla1.jpg");
+    background-size: cover;
+}
+
+.hero-heading{
+   background-color: #df4768;
+   margin: 20px;
+   border-radius: 5px;
+   padding: 10px;
+   color: rgba(255, 255, 255, 0.778);
+}
+
+.hero-heading:hover{
+    background-color: #ff3c66;
+}
+
+.hero-para{
+    background-color: #0A72B1;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.778);
+
+}
+
+.hero-para:hover{
+    background-color: #0c8ede;
+}
+
+
+/* activities section  */
+
+#activities{
+    background-color:#DCE3EB;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+.act-heading{
+ /* color: #581020; */
+  color: #941F38;
+  /* color: #e5656f; */
+  text-shadow: 0px 0px 1px black;
+
+  font-weight: bold;
+  font-style: italic;
+}
+
+.activity{
+   padding: 20px 0;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+
+.activity-img{
+   border-radius: 50%;
+   height:200px;
+   width: 200px;
+   margin: 10px 10px;
+   opacity: 0.8;
+}
+
+
+.activity-img:hover{
+    opacity: 1;
+}
+
+.activity-items{
+    width: 50%;
+    padding: 30px 50px;
+}
+
+.activity-headings{
+    margin: 10px 10px;
+    /* color: #9a1a24; */
+    color: #9f2d46;
+    font-weight: 700;
+    
+}
+
+.activity-para{
+    margin: 10px 10px;
+    color: #000000;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* guide section */
+
+#guide{
+    margin-top: -16px;
+    background-color: #ffffff;
+    padding: 70px 0;
+}
+
+.main{
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 10px; 
+    background-color: #6cbcee;
+    /* background-color: #97aed7; */
+    /* background-color: #6f7f9c; */
+    /* box-shadow: -10px 10px  #f19dbc; */
+    border-bottom: 10px solid #f26d78;
+}
+
+.main:hover{
+    box-shadow: 0px 10px 5px #f26d78;
+    border: none;
+}
+
+.img{
+    height: 250px;
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #e8e8e8;
+    background-color: white;
+    /* border-radius:50%; */
+    box-shadow: -3px 2px 5px #c5c5c5;
+    /* box-shadow: -3px 3px 5px #555454; */
+    
+}
+
+
+.about{
+   background-color: #f5f5f5;
+   /* background-color: #686963;
+   /* background-color: #DB5461;
+   background-color: #E3F2FD; */ 
+   border-radius: 6px;
+   padding: 10px;
+   color: #0f0809;
+   font-family: 'Nunito', sans-serif;
+   box-shadow: -3px 3px 5px #c5c5c5;
+   width: 50%;
+   /* box-shadow: -3px 3px 5px #555454; */
+}
+
+
+.about-content{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
